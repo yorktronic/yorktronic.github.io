@@ -1,10 +1,8 @@
 ---
 layout: page
-title: About
+title: about yorktronic.io
 permalink: /about/
 ---
-
-### About yorktronic.io
 
 Well, hello there. My name is Ty, and I'm either a data scientist or I'm almost a data scientist. In January of 2015 I decided I wanted to be a web developer, so I taught myself Ruby, and subsequently decided I did not want to be a web developer (no offense to Ruby). In May of 2015, I decided I wanted to be a data scientist, which kind of makes sense because I studied industrial engineering in college and thus have a decent background in statistics, optimization, linear and discrete mathematics, etc.
 
