@@ -4,7 +4,7 @@ title: About yorktronic.io
 permalink: /about/
 ---
 
-<img src="https://github.com/yorktronic/yorktronic.github.io/blob/master/images/Data_with_pipe_500x500.jpg">
+![My helpful screenshot]({{https://github.com/yorktronic}}/images/Data_with_pipe_500x500.jpg)
 
 Well, hello there. My name is Ty, and I'm either a data scientist or I'm almost a data scientist. In January of 2015 I decided I wanted to be a web developer, so I taught myself Ruby, and subsequently decided I did not want to be a web developer (no offense to Ruby). In May of 2015, I decided I wanted to be a data scientist, which kind of makes sense because I studied industrial engineering in college and thus have a decent background in statistics, optimization, linear and discrete mathematics, etc. So, I taught myself python, pandas, numPy, statsmodels, and am in the progress of learning visualization tools such as <a href="http://d3js.org/" target="_blank">D3<a>, <a href="https://github.com/keen/dashboards" target="_blank">keen</a>, <a href="http://bokeh.pydata.org/en/latest/" target="_blank">bokeh</a>, and <a href="http://www.highcharts.com/" target="_blank">highcharts</a>.
 
