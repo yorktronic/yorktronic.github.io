@@ -17,4 +17,6 @@ From talking to some people on Thinkful's Slack channel, as well as to some prog
 
 I realize that I could just manually fix this problem in Excel or something, but I'm stubborn and so instead I'm going to build a python script that takes in a list of country names and returns a dictionary that contains the properlly formatted names as keys, and the poorly formatted names as values. If it's unable to match a properly formatted key, it'll just have blank text as the value in the key-value pair. Or something like that. More to come.
 
+<a href="https://github.com/yorktronic/data_science/tree/master/thinkful/Unit3/data_scraping" target="_blank">analysis source code</a>
+
 /ty 
