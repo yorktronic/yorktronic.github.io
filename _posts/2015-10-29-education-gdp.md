@@ -1,6 +1,6 @@
 ---
 layout: post
-title: my first Jekyll post
+title: Education v. GDP by Country 
 ---
 
 Right now I'm working on an analysis of the number of years people spend being educated (which is called "School Life Expectancy by the UN") as it relates to national GDP. Here's the <a href="http://web.archive.org/web/20110514112442/http://unstats.un.org/unsd/demographic/products/socind/education.htm" target="_blank">education dataset provided by the UN</a>, and <a href="http://api.worldbank.org/v2/en/indicator/ny.gdp.mktp.cd?downloadformat=csv" target="_blank">GDP data</a>, courtesty of the World Bank. Since you're unlikely to open either data set and view it, I'll give you a quick summary: there is data, there is more than I need to solve this problem, and about 18% of the country names don't match due to differences in spelling, abbreviation, punctuation, etc. So, a typical data science problem :)
