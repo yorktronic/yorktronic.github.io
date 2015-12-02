@@ -12,6 +12,6 @@ In January of 2015 I decided I wanted to be a web developer, so I taught myself 
 
 I have since left my day job as an industrial engineer to pursue data science full time, because that's how much I love it. Some of my projects include a recommendation engine for <a href="https://github.com/yorktronic/hots-comp-calc" target="_blank">building a team in Blizzard's Heroes of the Storm</a> (still very much a work in progress), and I've done <a href="https://github.com/yorktronic/data_science">a ton of work</a> for Thinkful.com's data science course. I'm also enrolled in Coursera's Machine Learning specialization.
 
-Some less nerdy activities include skiing, cycling, knife making and sharpening, <a href="https://inactionhero.bandcamp.com/"making electronic music</a>, cooking, being a former competetive video game player, and working on cars. I also like turtles. Is that weird?
+Some less nerdy activities include skiing, cycling, knife making and sharpening, <a href="https://inactionhero.bandcamp.com/">making electronic music</a>, cooking, being a former competetive video game player, and working on cars. I also like turtles. Is that weird?
 
 /ty 
