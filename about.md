@@ -3,8 +3,6 @@ layout: page
 title: About Ty
 permalink: /about/
 ---
-<!--![My helpful screenshot]({{https://github.com/yorktronic}}/images/Data_with_pipe_380x380.jpg)-->
-
 Well, hello there. My name is Ty, and I'm either a data scientist or I'm almost a data scientist. In my old job I was a business consultant and analyst of sorts, helping to make a federal government agency more efficient by better leveraging technology such as Salesforce CRM, and through business process improvement and analysis, among other things. 
 
 In January of 2015 I decided I wanted to get back in to coding to be a web developer, so I taught myself Ruby, and subsequently decided I did not want to be a web developer (no offense to Ruby). In May of 2015, I decided I wanted to be a data scientist, which kind of makes sense because I studied industrial engineering in college and thus have a decent background in statistics, optimization, linear and discrete mathematics, etc. So, I taught myself python, pandas, numPy, statsmodels, and am in the progress of learning the power of Dato's (formerly GraphLab's) SFrame and  visualization tools such as <a href="http://d3js.org/" target="_blank">D3<a>,  <a href="http://bokeh.pydata.org/en/latest/" target="_blank">bokeh</a>, and <a href="http://www.highcharts.com/" target="_blank">highcharts</a>.
@@ -15,4 +13,6 @@ Some less nerdy activities include skiing, cycling, knife making and sharpening,
 
 Oh and I'm looking for work as well -- you can email me at <a href="mailto:ty.walker@gmail.com" target="_top">ty.walker@gmail.com</a>, and feel free to check out any of the links below for my github, linkedin, etc.
 
-/ty 
+/ty
+
+![My helpful screenshot]({{https://github.com/yorktronic}}/images/Data_with_pipe_380x380.jpg) 
