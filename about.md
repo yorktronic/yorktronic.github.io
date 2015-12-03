@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About yorktronic.io
+title: About Ty
 permalink: /about/
 ---
 
