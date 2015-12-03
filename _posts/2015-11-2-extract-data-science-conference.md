@@ -3,7 +3,7 @@ layout: post
 title: Highlights from Extract data science conference
 ---
 
-Last week I attended the Extract data science conference in San that dfFrancisco was sponsored by <a href="https://import.io" target="_blank">import.io</a>. Mostly I attended the "Data Stories" sessions, where people from various companies such as Netflix, Lyft, Yelp, and others presented on some of the problems they worked on and methodologies they used to solve them, among other things. Below are some of the highlights:
+Last week I attended the Extract data science conference in San Francisco that was sponsored by <a href="https://import.io" target="_blank">import.io</a>. Mostly I attended the "Data Stories" sessions, where people from various companies such as Netflix, Lyft, Yelp, and others presented on some of the problems they worked on and methodologies they used to solve them, among other things. Below are some of the highlights:
 
 ## Yelp ##
 Travis Brooks, head of data @ Yelp, gave a talk on how they determined the <a href="http://officialblog.yelp.com/2015/01/yelps-top-100-places-to-eat-in-the-us-for-2015.html" target="_blank">Top 100 Places to Eat in the U.S. for 2015</a> by leveraging data science techniques. This was probably the most interesting talk for me personally, as it was given in a sort of step-by-step problem solving format. Here's a high-level view of the steps:
