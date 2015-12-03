@@ -2,7 +2,7 @@
 
     {% assign url_parts = page.url | split: '/' %}
 
-    {% if page.url == {{ site.baseurl }} %}
+    {% if page.url == ''}
         <a href="{{ site.baseurl }}" class="active">Blog</a>
     {% else %}
         <a href="{{ site.baseurl }}/">Blog</a>
