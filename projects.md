@@ -1,6 +1,7 @@
 ---
 layout: page
-title: About Ty
+title: Projects
 permalink: /projects/
 ---
-Coming soon!
+
+Coming soon! For now, please check out the list of projects I have in the <a href="https://github.com/yorktronic/data_science" target="_blank">data-science repo</a> of my GitHub.
