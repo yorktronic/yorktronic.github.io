@@ -1,0 +1,27 @@
+<nav>
+
+    {% assign url_parts = page.url | split: '/' %}
+
+    {% if page.url == {{ site.baseurl }} %}
+        <a href="{{ site.baseurl }}" class="active">Blog</a>
+    {% else %}
+        <a href="{{ site.baseurl }}/">Blog</a>
+    {% endif %}
+
+    
+    {% if url_parts[1] == 'projects' %}
+        <a href="{{ site.baseurl }}/projects" class="active">Projects</a>
+    {% else %}
+        <a href="{{ site.baseurl }}/projects">Projects</a>
+    {% endif %}
+
+    
+    {% if url_parts[1] == 'about' %}
+        <a href="{{ site.baseurl }}/about" class="active">About</a>
+    {% else %}
+        <a href="{{ site.baseurl }}/about">About</a>
+    {% endif %}
+    
+    <a href="https://github.com/yorktronic" target="_blank">GitHub</a>
+
+</nav>

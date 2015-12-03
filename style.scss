@@ -73,7 +73,7 @@ a {
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: #B2F2E8;
   }
 }
 
@@ -118,6 +118,11 @@ img {
 .date {
   font-style: italic;
   color: $gray;
+}
+
+.active {
+  border-radius: 2px;
+  background: #B2F2E8;
 }
 
 // Specify the color of the selection
