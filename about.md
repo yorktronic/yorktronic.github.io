@@ -16,3 +16,5 @@ Oh and I'm looking for work as well -- you can email me at <a href="mailto:ty.wa
 /ty
 
 ![My helpful screenshot]({{https://github.com/yorktronic}}/images/Data_with_pipe_380x380.jpg) 
+
+P.S. get it? data science? 
