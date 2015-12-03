@@ -3,9 +3,7 @@ layout: page
 title: About Ty
 permalink: /about/
 ---
-![My helpful screenshot]({{https://github.com/yorktronic}}/images/Data_with_pipe_380x380.jpg)
-
-<a href="https://github.com/yorktronic" target="_blank">My GitHub</a>
+<!--![My helpful screenshot]({{https://github.com/yorktronic}}/images/Data_with_pipe_380x380.jpg)-->
 
 Well, hello there. My name is Ty, and I'm either a data scientist or I'm almost a data scientist. In my old job I was a business consultant and analyst of sorts, helping to make a federal government agency more efficient by better leveraging technology such as Salesforce CRM, and through business process improvement and analysis, among other things. 
 
