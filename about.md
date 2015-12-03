@@ -3,7 +3,6 @@ layout: page
 title: About Ty
 permalink: /about/
 ---
-
 ![My helpful screenshot]({{https://github.com/yorktronic}}/images/Data_with_pipe_380x380.jpg)
 
 <a href="https://github.com/yorktronic" target="_blank">My GitHub</a>
