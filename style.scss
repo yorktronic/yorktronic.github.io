@@ -18,7 +18,7 @@ html {
 }
 
 body {
-	background: $white;
+  background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
@@ -69,11 +69,12 @@ p {
 }
 
 a {
-  color: $blue;
+  color: #22C6B6;
   text-decoration: none;
-	cursor: pointer;
+  cursor: pointer;
   &:hover, &:active {
-    color: #85E9DC;
+    color: $darkGray;
+    background-color: #85E9DC;
   }
 }
 
