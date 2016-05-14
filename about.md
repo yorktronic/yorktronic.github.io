@@ -1,20 +1,51 @@
 ---
 layout: page
-title: About Ty
 permalink: /about/
 ---
-Well, hello there. My name is Ty, and I'm either a data scientist or I'm almost a data scientist. In my old job I was a business consultant and analyst of sorts, helping to make a federal government agency more efficient by better leveraging technology such as Salesforce CRM, and through business process improvement and analysis, among other things. 
+# The Important Stuff #
 
-In January of 2015 I decided I wanted to get back in to coding to be a web developer, so I taught myself Ruby, and subsequently decided I did not want to be a web developer (no offense to Ruby). In May of 2015, I decided I wanted to be a data scientist, which kind of makes sense because I studied industrial engineering in college and thus have a decent background in statistics, optimization, linear and discrete mathematics, etc. So, I taught myself python, pandas, numPy, statsmodels, and am in the progress of learning the power of Dato's (formerly GraphLab's) SFrame and  visualization tools such as <a href="http://d3js.org/" target="_blank">D3<a>,  <a href="http://bokeh.pydata.org/en/latest/" target="_blank">bokeh</a>, and <a href="http://www.highcharts.com/" target="_blank">highcharts</a>.
+My name is Ty, and I'm a data scientist with a focus on recommendation systems. In my old job
+I was a business consultant, analyst, industrial engineer, and developer of sorts, helping to
+make a the <a href="https://www.gsa.gov">United States General Services Administration</a>
+more efficient by better leveraging technology such as Salesforce CRM, and through business
+process improvement and analysis, among other things. I also used statistics and optimization
+towards the same goal.
 
-I have since left my day job as an industrial engineer to pursue data science full time, because that's how much I love it. Some of my projects include <a href="https://github.com/yorktronic/data_science">a ton of work</a> for Thinkful.com's data science course. I'm also enrolled in Coursera's Machine Learning specialization, as well as working on a variety of side projects, some paid, some not so much.
+I have since left that job to pursue data science and software engineering full time, and a list
+of some of the projects I've worked on can be found on the <a href="../projects/">projects page</a>.
+I have completed both Thinkful.com's data science program, as well as Coursera's Machine Learning
+Foundations program, and am currently working toward completing Coursera's machine learning specialization.
 
-Some less nerdy activities include skiing, cycling, knife making and sharpening, <a href="https://inactionhero.bandcamp.com/">making electronic music</a>, cooking, being a former competetive video game player, and working on cars.
+**I'm available for hire**. <a href="mailto:ty.walker@gmail.com" target="_top">Email me</a>
+or contact me on <a href="https://www.linkedin.com/in/ty-walker-2231052" target="_blank">LinkedIn</a>,
+<a href="https://angel.co/ty-walker-1" target="_blank">AngelList</a>, or <a href="https://www.upwork.com/fl/tywalker" target="_blank">Upwork</a>.
 
-Oh and I'm looking for work as well -- you can email me at <a href="mailto:ty.walker@gmail.com" target="_top">ty.walker@gmail.com</a>, and feel free to check out any of the links below for my github, linkedin, etc.
+# Additional Skills #
+<style>
+    table{
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+    table td {
+        padding: 7px;
+    }
+    table tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+    table th{
+        text-align: left;
+        padding: 7px;
+        border-bottom: 1px solid #bbb;
+    }
+</style>
 
-/ty
+| **Handy** | **Nerdy** | **Other** |
+| --------- | --------- | --------- |
+| knife maker / sharpener | computer builder | <a href="https://inactionhero.bandcamp.com/">making electronic music</a> |
+| metal restoration | former competetive gamer &nbsp;| <a href="https://www.flickr.com/photos/yorktronic">photographer</a> |
+| fixer and builder of things | audiophile | expert skier |
+| amateur auto mechanic | HiFi setup designer | cyclist |
+| custom ski boot fitter  | |
+| ski technician | |
+| some bike mechanic skills | |
 
-![My helpful screenshot]({{https://github.com/yorktronic}}/images/Data_with_pipe_380x380.jpg) 
-
-P.S. get it? data science? 

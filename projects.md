@@ -1,9 +1,30 @@
 ---
 layout: page
-title: Coming Soon!
+title: Projects List
 permalink: /projects/
 ---
+Here's a list of my projects and some of the technologies / techniques used for each project.
 
-For now, please check out the list of projects I have in the <a href="https://github.com/yorktronic/data_science" target="_blank">data-science repo</a> of my GitHub.
+## Data Science ##
 
-Also, I built the <a href="http://sffeb.us" target="_blank">San Francisco Federal Executive Board website</a> in 60 days, back when I worked for Uncle Sam. I no longer run the site so if there's anything bad about it, it's not my fault :)
+1. <a href="https://github.com/yorktronic/data_science/tree/master/thinkful/Unit4/decision-trees">Predicting body position of smartphone users based on accelerometer data</a> Decision trees, random forest, black box analysis, dato, graphlab create.
+
+2. <a href="https://github.com/yorktronic/data_science/tree/master/thinkful/Unit4/k-nearest-neighbors">Predict class of flower based on sepal measurements</a> k nearest neighbors, graphlab create, pandas
+
+3. <a href="https://github.com/yorktronic/data_science/tree/master/thinkful/Unit3/weather">Weather analysis of major US cities</a>. API calls, pandas, requests, sqlite, histograms, qq plots.
+
+4. <a href="https://github.com/yorktronic/data_science/tree/master/thinkful/Unit2/linear_regression_and_correlation">Determined factors correlated with interest rate offerings from Lending Club</a>. Linear regression, pandas, matplotlib.
+
+5. <a href="https://github.com/yorktronic/data_science/tree/master/thinkful/Unit4/cv"> Cross validation of Lending Club linear regression</a> pandas, statsmodels, scikit-learn, KFold.
+
+6. <a href="https://github.com/yorktronic/data_science/tree/master/thinkful/Unit3/nyc-biking">How New Yorkers bike using the CitiBike public bike program</a>. Time series data, pandas, matplotlib, sqlite.
+
+7. <a href="https://github.com/yorktronic/coursera-ml-foundations/blob/master/w4/document-retrieval.ipynb">Document retrieval using Wikipedia data</a>. Text analysis, vectors, nearest neighbors.
+
+8. <a href="https://github.com/yorktronic/coursera-ml-foundations/tree/master/w3">Sentiment analysis of Amazon.com product reviews</a>. Natural language processing, classification.
+
+## Web Development ##
+
+I built the <a href="http://sffeb.us" target="_blank">San Francisco Federal Executive Board website</a> in 60 days, back when I worked for Uncle Sam. I no longer run the site so if there's anything bad about it, it's not my fault :) The site was built using WordPress.
+
+I also am a subcontractor for a certain Bay Area company, working on an internal training website for them, which uses mostly PHP, HTML5, javascript, and jQuery.
