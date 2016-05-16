@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 28px;
   a {
     color: inherit;
   }
@@ -201,7 +201,7 @@ img {
   color: $darkGray;
   cursor: pointer;
   font-family: $openSans;
-  font-style: 300;
+  font-weight: 600;
   font-size: 28px;
   letter-spacing: 1px;
 }
@@ -221,8 +221,7 @@ nav {
   margin-top: 23px; // @TODO: Vertically middle align
   font-family: $openSans;
   font-size: 18px;
-  font-style: bold;
-
+  font-weight: 600;
   @include mobile {
     float: none;
     margin-top: 9px;
@@ -234,7 +233,7 @@ nav {
     margin-left: 20px;
     color: $darkGray;
     text-align: right;
-    font-weight: 300;
+    font-weight: 700;
     letter-spacing: 1px;
 
     @include mobile {
