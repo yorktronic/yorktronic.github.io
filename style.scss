@@ -20,6 +20,7 @@ html {
 body {
   background: $white;
   font: 18px $openSans;
+  font-weight: 400;
   color: $darkGray;
 }
 
@@ -52,7 +53,7 @@ h1 {
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 22px;
 }
 
 h3 {
@@ -203,6 +204,7 @@ img {
   font-family: $hind;
   font-weight: 700;
 
+
 }
 
 .site-description {
@@ -222,7 +224,7 @@ nav {
   margin-top: 23px; // @TODO: Vertically middle align
   font-family: $hind;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 600;
   @include mobile {
     float: none;
     margin-top: 9px;
@@ -234,7 +236,7 @@ nav {
     margin-left: 20px;
     color: $darkGray;
     text-align: right;
-    font-weight: 700;
+    font-weight: 600;
     letter-spacing: 1px;
 
     @include mobile {
