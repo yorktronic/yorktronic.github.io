@@ -19,7 +19,7 @@ html {
 
 body {
   background: $white;
-  font: 18px/1.4 $helvetica;
+  font: 18px $helvetica;
   color: $darkGray;
 }
 
@@ -69,12 +69,12 @@ p {
 }
 
 a {
-  color: #22C6B6;
+  color: #22bbc6;
   text-decoration: none;
   cursor: pointer;
   &:hover, &:active {
-    color: $darkGray;
-    background-color: #85E9DC;
+    color: #595959;
+    background-color: #87eae1;
   }
 }
 
@@ -219,7 +219,7 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
+  font-family: $acumin;
   font-size: 18px;
 
   @include mobile {

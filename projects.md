@@ -3,6 +3,11 @@ layout: page
 title: Projects List
 permalink: /projects/
 ---
+<head>
+  <script src="https://use.typekit.net/yrl6rpz.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+</head>
+
 Here's a list of my projects and some of the technologies / techniques used for each project.
 
 ## Data Science ##
