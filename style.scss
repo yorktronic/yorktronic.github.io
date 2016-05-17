@@ -26,7 +26,7 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 780px;
+  max-width: 770px;
   padding: 0 10px;
   width: 100%;
 }
@@ -46,14 +46,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 28px;
+  font-size: 30px;
+  color: $evenDarkerTeal;
   a {
-    color: inherit;
+    color: $evenDarkerTeal;
   }
 }
 
 h2 {
-  font-size: 22px;
+  font-size: 26px;
+  color: $darkerTeal;
 }
 
 h3 {
@@ -70,12 +72,11 @@ p {
 }
 
 a {
-  color: #22bbc6;
+  color: $darkTeal;
   text-decoration: none;
   cursor: pointer;
   &:hover, &:active {
-    color: #595959;
-    background-color: #87eae1;
+    color: $darkerRed;
   }
 }
 
@@ -124,7 +125,8 @@ img {
 
 .active {
   border-radius: 2px;
-  background: #85E9DC;
+  color: $darkerRed;
+
 }
 
 // Specify the color of the selection
@@ -199,17 +201,24 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: $darkerGray;
   cursor: pointer;
   font-family: $hind;
   font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 32px;
 
-
+  a {
+    color: $darkestTeal;
+    &:hover {
+    color: $darkerRed;
+    }
+  }
 }
 
 .site-description {
   margin: -3px 0 0 0;
-  color: $gray;
+  color: $darkGray;
   font-size: 16px;
   font-family: $openSans;
   font-weight: 400;
@@ -221,9 +230,9 @@ img {
 
 nav {
   float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
+  margin-top: 23px;
   font-family: $hind;
-  font-size: 18px;
+  font-size: 19px;
   font-weight: 600;
   @include mobile {
     float: none;
@@ -234,14 +243,13 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $darkGray;
+    color: $darkestTeal;
     text-align: right;
     font-weight: 600;
     letter-spacing: 1px;
 
     @include mobile {
       margin: 0 10px;
-      color: $blue;
     }
   }
 }

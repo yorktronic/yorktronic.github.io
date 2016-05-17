@@ -1,6 +1,6 @@
 ---
 layout: post
-title: current projects update
+title: Current projects update
 ---
 
 Oh, hello there. It's been a while. 
