@@ -28,3 +28,5 @@ Below you'll find several of my projects, along with some of the techniques and 
 I built the <a href="http://sffeb.us" target="_blank">San Francisco Federal Executive Board website</a> in 60 days, back when I worked for Uncle Sam. I no longer run the site so if there's anything bad about it, it's not my fault :) The site was built using WordPress.
 
 I also am a subcontractor for a certain Bay Area company, working on an internal training website for them, which uses mostly PHP, HTML5, javascript, and jQuery.
+
+Oh yeah, and I built this website.

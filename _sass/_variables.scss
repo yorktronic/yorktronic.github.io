@@ -25,19 +25,10 @@ $lightGray: #eee;
 $white: #fff;
 
 // Font stacks
-$helvetica: Helvetica, Arial, sans-serif;
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$georgia: Georgia, serif;
-$acumin: "acumin-pro";
-$openSans: 'Open Sans', sans-serif;
-$droidSans: 'Droid Sans', sans-serif;
-$lato: 'Lato', sans-serif;
-$robotoSlab: 'Roboto Slab', sans-serif;
-$nunito: 'Nunito', sans-serif;
-$hind: 'Hind', sans-serif;
-$signikaNegative: 'Signika Negative', sans-serif;
-$signika: 'Signika', sans-serif;
-$code: 'Source Code Pro', ;
+
+$openSans: 'Open Sans', Helvetica, sans-serif;
+$hind: 'Hind', 'Helvetica Neue', sans-serif;
+$code: 'Source Code Pro', monospace;
 
 // Mobile breakpoints
 @mixin mobile {
@@ -45,3 +36,15 @@ $code: 'Source Code Pro', ;
     @content;
   }
 }
+
+// Old font stacks that aren't in use
+// $helvetica: Helvetica, Arial, sans-serif;
+// $helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
+// $georgia: Georgia, serif;
+// $acumin: "acumin-pro";
+// $droidSans: 'Droid Sans', sans-serif;
+// $lato: 'Lato', sans-serif;
+// $robotoSlab: 'Roboto Slab', sans-serif;
+// $nunito: 'Nunito', sans-serif;
+// $signikaNegative: 'Signika Negative', sans-serif;
+// $signika: 'Signika', sans-serif;
