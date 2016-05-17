@@ -13,7 +13,7 @@ Below you'll find several of my projects, along with some of the techniques and 
 
 3. <a href="https://github.com/yorktronic/data_science/tree/master/thinkful/Unit3/weather">Weather analysis of major US cities</a>. API calls, pandas, requests, sqlite, histograms, qq plots.
 
-4. <a href="https://github.com/yorktronic/data_science/tree/master/thinkful/Unit2/linear_regression_and_correlation">Determined factors correlated with interest rate offerings from Lending Club</a>. Linear regression, pandas, matplotlib.
+4. <a href="https://github.com/yorktronic/data_science/tree/master/thinkful/Unit2/linear_regression_and_correlation">How does Lending Club decide what interest rate to offer someone?</a>. Linear regression, pandas, matplotlib.
 
 5. <a href="https://github.com/yorktronic/data_science/tree/master/thinkful/Unit4/cv"> Cross validation of Lending Club linear regression</a> pandas, statsmodels, scikit-learn, KFold.
 
