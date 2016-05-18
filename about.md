@@ -44,7 +44,7 @@ or contact me on <a href="https://www.linkedin.com/in/ty-walker-2231052" target=
 | knife maker / sharpener | computer builder | <a href="https://inactionhero.bandcamp.com/">making electronic music</a> |
 | metal restoration | former competetive gamer &nbsp;| <a href="https://www.flickr.com/photos/yorktronic">photographer</a> |
 | fixer and builder of things | audiophile | expert skier |
-| amateur auto mechanic | HiFi setup designer | cyclist |
+| amateur auto mechanic | HiFi setup designer | pretty strong cyclist |
 | custom ski boot fitter  | |
 | ski technician | |
 | some bike mechanic skills | |
