@@ -12,7 +12,7 @@ permalink: /projects/
 
 3. <a href="https://github.com/yorktronic/data_science/tree/master/thinkful/Unit3/weather">Weather analysis of major US cities</a>. API calls, pandas, requests, sqlite, histograms, qq plots.
 
-4. <a href="https://github.com/yorktronic/data_science/tree/master/thinkful/Unit2/linear_regression_and_correlation">How does Lending Club decide what interest rate to offer someone?</a>. Linear regression, pandas, matplotlib.
+4. <a href="https://github.com/yorktronic/data_science/tree/master/thinkful/Unit2/logistic_regression">What is the probability you'll get a loan from Lending Club?</a> Logistic regression, statsmodels, pandas, numpy.
 
 5. <a href="https://github.com/yorktronic/data_science/tree/master/thinkful/Unit4/cv"> Cross validation of Lending Club linear regression</a> pandas, statsmodels, scikit-learn, KFold.
 
