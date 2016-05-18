@@ -30,10 +30,10 @@ title: blog
   {% for post in site.posts %}
 
 	<article class="post">
-	<div class="block_title">
+	<div class="block">
 		<h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
       <div class="entry">
-        {{ post.excerpt }}
+        {{ post.excerpt | truncatewords: 45}}
       </div>
 
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>

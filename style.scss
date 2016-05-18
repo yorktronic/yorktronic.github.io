@@ -19,7 +19,7 @@ html {
 
 body {
   background-color: #f2f2f2;
-  font: 18px $openSans;
+  font: 17px $openSans;
   font-weight: 400;
   color: $darkGray;
 }
@@ -34,12 +34,12 @@ body {
 .block {
   background-color: #f8fefd;
   border-radius: 10px;
-  padding: 8px 8px 8px 8px;
+  padding: 5px 12px 10px 12px;
 }
 
-.block_title {
+.block_header {
   background-color: #f8fefd;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 5px 5px 5px 5px;
 }
 
@@ -58,7 +58,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 28px;
   color: $evenDarkerTeal;
   a {
     &:hover {
@@ -70,7 +70,7 @@ h1 {
 }
 
 h2 {
-  font-size: 26px;
+  font-size: 24px;
   color: $darkerTeal;
 }
 
@@ -92,6 +92,7 @@ a {
   text-decoration: none;
   cursor: pointer;
   font-weight: 600;
+
   &:hover, &:active {
     background-color: $lighterTeal;
     color: $evenDarkerRed;
@@ -150,11 +151,11 @@ img {
 // Specify the color of the selection
 ::-moz-selection {
   color: $black;
-  background: $lightGray;
+  background: $lighterTeal;
 }
 ::selection {
   color: $black;
-  background: $lightGray;
+  background: $lighterTeal;
 }
 
 // Nicolas Gallagher's micro clearfix hack
@@ -226,7 +227,7 @@ img {
   font-family: $hind;
   font-weight: 700;
   letter-spacing: 1px;
-  font-size: 32px;
+  font-size: 34px;
 
   a {
     color: $darkerGray;
