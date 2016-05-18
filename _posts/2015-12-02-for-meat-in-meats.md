@@ -3,10 +3,9 @@ layout: post
 title: Ordering food for a wedding, using python
 ---
 
-Yes, the post title is a little weird but just bear with me! I got married in late September
-and since money was tight for the wedding, I ended up writing a python script that helped
-to order exactly the correct amount of entrees. In the process of doing so I created what is
-probably the most humorous `for` loop I'll ever create:
+I got married in late September and since money was tight for the wedding, I ended up writing
+a python script that helped to order exactly the correct amount of entrees. In the process of
+doing so I created what is probably the most humorous `for` loop I'll ever create:
 {% highlight python %}for meat in meats:{% endhighlight %}
 
 Full source below!
