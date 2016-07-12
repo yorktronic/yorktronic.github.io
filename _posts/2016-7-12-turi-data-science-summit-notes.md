@@ -3,7 +3,7 @@ layout: post
 title: Live-blogging the 2016 Data Science Summit in SF
 ---
 **July 12-13, 2016 @ The Fairmont Hotel**
-I'll be live-blogging Turi's 2016 Data Science Summit in San Francisc, CA. Hopefully my notes are relatively easy to
+I'll be live-blogging Turi's 2016 Data Science Summit in San Francisco, CA. Hopefully my notes are relatively easy to
 understand! ***Note: Turi was formerly known as Dato, creators of SFrame and GraphLab Create***
 
 # Keynote -- Carlos Guestrin -- CEO Turi, Amazon Professor of Machine Learning, University of Washington #
