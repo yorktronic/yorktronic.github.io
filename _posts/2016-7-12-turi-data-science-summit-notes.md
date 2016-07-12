@@ -178,8 +178,11 @@ interests them, pick a dataset, and deelop a research question that the seek to 
 than the traditional math statistics course
 * Coursera's data analysis and interpretation track
 
-# Random list of tools I need to learn more about #
+# Interesting Tools and Research #
 * Apache Arrow
 * Myria
 * Non-python stats tools (SAS, SPSS, R <--- **nope**)
-
+* MusicDB - longitudinal analysis of music
+* SeaFlow (might be interesting for Mark)
+* Ashes CAMHD (ocean floor HD cameras that pass photos to data scientists for analytics)
+    * Separating foreground and background using matrix factorization
