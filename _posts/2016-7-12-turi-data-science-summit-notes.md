@@ -177,3 +177,9 @@ interests them, pick a dataset, and deelop a research question that the seek to 
 * This method of teaching resulted in enrolling significantly more under-prepresented students
 than the traditional math statistics course
 * Coursera's data analysis and interpretation track
+
+# Random list of tools I need to learn more about #
+* Apache Arrow
+* Myria
+* Non-python stats tools (SAS, SPSS, R <--- **nope**)
+
