@@ -36,8 +36,8 @@ to deploy code to the cloud
 * Train using non-linear data (like from decisions made by a decision tree model)
 
 ## Distributed deep learning ##
-* Distributed training throughput increases as number of GPUs increases
-* Distributed training convergence time decreases as number of GPUs increases
+* Distributed training throughput increases linearly as number of GPUs increases
+* Distributed training convergence time decreases linearly as number of GPUs increases
 * Utilizing the Turi RPC layer via Python, you can get a 40-60% improvement in TensorFlow performance
 over the standard RPC layer
 
