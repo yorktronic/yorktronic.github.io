@@ -2,11 +2,15 @@
 layout: post
 title: Live-blogging the 2016 Data Science Summit in SF
 ---
+I'll be live-blogging Turi's 2016 Data Science Summit in San Francisc, CA. Hopefully my notes are relatively easy to
+understand! 
+
 # Turi Data Science Summit Notes #
 **July 12-13, 2016 @ The Fairmont Hotel**
 **Turi was formerly known as Dato, creators of SFrame and GraphLab Create**
 
 ## Keynote -- Carlos Guestrin -- CEO Turi, Amazon Professor of Machine Learning, University of Washington ##
+* <a href="https://twitter.com/guestrin?lang=en" target="_blank">@guestrin</a>
 * Last year, Netflix spent $600 million on their AI team
 * In 5 years, every application is going to be intelligent (will utilize some form of machine learning)
 
@@ -52,3 +56,26 @@ and data behind the recommender systems to gain patient trust
 
 #### Famous 20 Newsgroups dataset ####
 * Most good predictions due to misleading features: email addresses, names
+* Models can test well as far as training, test, and validation error, or whatever other
+error benchmark you want to use, but how do we get intuitive trust
+* Explanations help improve your model
+* Mechanical Turk experiment
+    * "In a few rounds of using a Mechanical Turk experiment, can I get as good or better
+    performance than my 'gold standard' model"
+    * Mechanical Turk lead to better results
+* <a href="https://github.com/google/inception" target="_blank">Google Inception</a> -- explaining deep learning by showing the detected features that lead to a
+prediction
+
+#### Game of Thrones Predictor ####
+* Predicting whether characters will be alive or dead
+* Carlos' model predicted that Ned Stark would be alive in Season 2
+* Factors / features include
+    * He's from the House of Stark
+    * How many dead relatives does he have?
+
+### Must-haves for ML in production ###
+* Maximize resources, reuse features
+* Never stop learning
+* When scaling matters
+* Explain yourself, explain your modles
+* Get away from the "my curve is better than your curve"
