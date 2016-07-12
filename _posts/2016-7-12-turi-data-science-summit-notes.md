@@ -26,7 +26,7 @@ to deploy code to the cloud
     * Frequent retraining, high-latency
     * Online learning, not general and difficult to debug
 
-#### Online re-ranking ####
+### Online re-ranking ###
 * Issue: preferences change depending on session
 * Adaptive ML in production
     1. Train and deploy your model
