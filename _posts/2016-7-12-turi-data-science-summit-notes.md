@@ -143,4 +143,42 @@ your model becomes infeasible
         * Helmet with 102 sensors
         * More accurate than any other current method
 
+## Jennifer Rose -- Professor @ Wesleyan ##
+**Increasing diversity in data science**
+### Why do we need diversity in data science? ###
+* When it comes time to tell the story of your data analysis, your background introduces
+ bias, and if you have too many similar individuals in the same place, that bias can carry
+ more weight than it would be in a more diverse working group
+* Diversity:
+   * Impacts the questions we ask in the first place
+   * Ramps up creativity
+
+### Method for increasing diversity ###
+* Strategies for increasing diversity
+    * Branch out to other disciplines
+    * Evoke curiosity and passion through multidisciplinary project-based learning
+* Project-based learning
+    * Base the learning approach on a real-world problem
+    * Superior to traditional appraoches in promoting deep thinking, knowledge retention, etc.
+* At Wesleyan, they used a multidisciplinary approach where the students pick a topic that
+interests them, pick a dataset, and deelop a research question that the seek to answer
+* Weeks 1 and 2
+    * Generate testable research question
+    * Conduct a literature review
+* Weeks 3 and 4
+    * Stats software basics (SAS, R, Stata, SPSS)
+    * Data management
+    * Descriptive stats and graphing
+* Week 5 though Week 10
+    * Conduct bivariable and multivariable analyses
+* Week 11 through Week 14
+    * Interpreting results and drawing conclusions
+    * Reconciling study limitations
+    * Presenting findings
+* **Just in time learning**
+* <a href="http://passiondrivenstatistics.com" target="_blank">passiondrivenstatistics.com</a>
+* This method of teaching resulted in enrolling significantly more under-prepresented students
+than the traditional math statistics course
+
+
 
