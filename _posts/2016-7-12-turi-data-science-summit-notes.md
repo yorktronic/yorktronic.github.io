@@ -6,7 +6,7 @@ I'll be live-blogging Turi's 2016 Data Science Summit in San Francisc, CA. Hopef
 understand!
 
 # Turi Data Science Summit Notes #
-**July 12-13, 2016 @ The Fairmont Hotel**  
+**July 12-13, 2016 @ The Fairmont Hotel**
 Turi was formerly known as Dato, creators of SFrame and GraphLab Create
 
 ## Keynote -- Carlos Guestrin -- CEO Turi, Amazon Professor of Machine Learning, University of Washington ##
@@ -80,3 +80,30 @@ prediction
 * When scaling matters
 * Explain yourself, explain your modles
 * Get away from the "my curve is better than your curve"
+
+## Ameliorating the Annotation Bottleneck ##
+Data programming, asynchronous deep learning
+* non-"Dark Data" - spreadsheets, relational databases, etc.
+* "Dark Data" - Valuable and hard to process data from scientific articles, documents, etc.
+* Dark data processing was used for fighting human trafficking, partnering with law enforcement
+agencies
+* Some routine cases should be much easier
+    * Simple classifiers and regression
+    * Entity and relationship extraction
+* **Challenge** - Make systems dramatically easier to use
+    * Willing to give up expressive power
+    * Non-CS PhD with a weekend to kill (i.e. hackathon)
+
+### Rise of Automatic Feature Libraries ###
+* Writing good features is painful
+    * Many used default automatic feture libraries .. not great
+    * Or deep learning
+* Automatic feature libraries need large training sets, and creating such sets is expnsive
+* ImageNet took years to build
+* **Goal** - build large training sets using only standard tools
+
+### Data Programming ###
+* It's difficult to get enough training data to run automatic feature libraries
+*
+
+### Omnivore ###

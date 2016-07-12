@@ -18,7 +18,7 @@ html {
 }
 
 body {
-  background-color: #fbfaf2;
+  background-color: $lightestTeal;
   font: 17px $openSans;
   font-weight: 400;
   color: $darkerGray;
@@ -26,21 +26,26 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 780px;
+  max-width: 800px;
   padding: 0 10px;
   width: 100%;
+
 }
 
 .block {
-  background-color: $lightestTeal;
-  border-radius: 10px;
-  padding: 5px 12px 10px 12px;
+  background-color: $backgroundOffWhite;
+  border-radius: 14px;
+  padding: 6px 15px 11px 15px;
+  -moz-box-shadow: 3px 3px 3px #666;
+  -webkit-box-shadow: 3px 3px 3px #666;
+  box-shadow: 3px 3px 3px #666;
 }
 
 .block_header {
-  background-color: $lightestTeal;
+  background-color: $backgroundOffWhite;
   border-radius: 10px;
   padding: 5px 5px 5px 5px;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -62,8 +67,9 @@ h1 {
   color: $evenDarkerTeal;
   a {
     &:hover {
-        background-color: $lighterTeal;
+        // background-color: $lighterTeal;
         color: $evenDarkerRed;
+        text-decoration: none;
     }
     color: $evenDarkerTeal;
   }
@@ -94,7 +100,7 @@ a {
   font-weight: 600;
 
   &:hover, &:active {
-    background-color: $lightestTeal;
+    // background-color: $lightestTeal;
     color: $jukeboxRed;
     text-decoration: underline;
   }
@@ -183,10 +189,14 @@ img {
 }
 
 .masthead {
-  padding: 5px 5px 5px 5px;
+  //padding: 5px 5px 5px 5px;
 
-  background-color: $lightestTeal;
-  border-radius: 10px;
+  background-color: $backgroundOffWhite;
+  border-radius: 14px;
+  padding: 6px 15px 11px 15px;
+  -moz-box-shadow: 3px 3px 3px #666;
+  -webkit-box-shadow: 3px 3px 3px #666;
+  box-shadow: 3px 3px 3px #666;
 
   @include mobile {
     text-align: center;
@@ -198,6 +208,11 @@ img {
   width: 70px;
   height: 70px;
   margin-right: 15px;
+  border-radius: 8px;
+  
+  -moz-box-shadow: 1px 1px 1px #666;
+  -webkit-box-shadow: 1px 1px 1px #666;
+  box-shadow: 1px 1px 1px #666;
 
   @include mobile {
     float: none;
@@ -268,6 +283,7 @@ nav {
     text-align: right;
     font-weight: 600;
     letter-spacing: 1px;
+    &:hover {text-decoration: none;}
 
     @include mobile {
       margin: 0 10px;
