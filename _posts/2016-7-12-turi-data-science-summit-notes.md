@@ -2,34 +2,31 @@
 layout: post
 title: Live-blogging the 2016 Data Science Summit in SF
 ---
+**July 12-13, 2016 @ The Fairmont Hotel**
 I'll be live-blogging Turi's 2016 Data Science Summit in San Francisc, CA. Hopefully my notes are relatively easy to
-understand!
+understand! ***Note: Turi was formerly known as Dato, creators of SFrame and GraphLab Create***
 
-# Turi Data Science Summit Notes #
-**July 12-13, 2016 @ The Fairmont Hotel**  
-Turi was formerly known as Dato, creators of SFrame and GraphLab Create
-
-## Keynote -- Carlos Guestrin -- CEO Turi, Amazon Professor of Machine Learning, University of Washington ##
+# Keynote -- Carlos Guestrin -- CEO Turi, Amazon Professor of Machine Learning, University of Washington #
 * <a href="https://twitter.com/guestrin?lang=en" target="_blank">@guestrin</a>
 * Last year, Netflix spent $600 million on their AI team
 * In 5 years, every application is going to be intelligent (will utilize some form of machine learning)
 
-### Decision Trees Utilizing Node Decisions as non-linear Features for other models
+## Decision Trees Utilizing Node Decisions as non-linear Features for other models ##
 * Transferable feature engineering
 
-### What makes a ML platform agile? ###
+## What makes a ML platform agile? ##
 * Turi now offers microservices (Turi predictive services) where you can utilize GraphLab Create
 to deploy code to the cloud
 * I'm guessing this would allow you to run ML models on GPUs?
 
-#### Updating Models ####
+### Updating Models ###
 * Models are stale the moment they are trained
 * Prediction accuracy can improve up to 40% by leveraging real-time feedback
 * Common approaches to fast adaptation
     * Frequent retraining, high-latency
     * Online learning, not general and difficult to debug
 
-##### Online re-ranking #####
+#### Online re-ranking ####
 * Issue: preferences change depending on session
 * Adaptive ML in production
     1. Train and deploy your model
@@ -38,24 +35,24 @@ to deploy code to the cloud
 * Online reranker uses activity data
 * Train using non-linear data (like from decisions made by a decision tree model)
 
-### Distributed deep learning ###
+## Distributed deep learning ##
 * Distributed training throughput increases as number of GPUs increases
 * Distributed training convergence time decreases as number of GPUs increases
 * Utilizing the Turi RPC layer via Python, you can get a 40-60% improvement in TensorFlow performance
 over the standard RPC layer
 
-### How can you trust your model? ###
+## How can you trust your model? ##
 * Netflix is trying to make customers more comfortable with an AI solution by making it real
 to them
 * For Doctors, they can make better decisions from recommender systems and can use the logic
 and data behind the recommender systems to gain patient trust
 
-#### Training a model to predict wolf v. husky ###
+### Training a model to predict wolf v. husky ###
 * Only one mistake -- do you trust the model?
 * What if you're having a husky festival and one single wolf shows up and kills someone!?
 * Upon further investigation, Carlos showed that the wolf predictor was actually a snow predictor
 
-#### Famous 20 Newsgroups dataset ####
+### Famous 20 Newsgroups dataset ###
 * Most good predictions due to misleading features: email addresses, names
 * Models can test well as far as training, test, and validation error, or whatever other
 error benchmark you want to use, but how do we get intuitive trust
@@ -67,14 +64,14 @@ error benchmark you want to use, but how do we get intuitive trust
 * <a href="https://github.com/google/inception" target="_blank">Google Inception</a> -- explaining deep learning by showing the detected features that lead to a
 prediction
 
-#### Game of Thrones Predictor ####
+### Game of Thrones Predictor ###
 * Predicting whether characters will be alive or dead
 * Carlos' model predicted that Ned Stark would be alive in Season 2
 * Factors / features include
     * He's from the House of Stark
     * How many dead relatives does he have?
 
-### Must-haves for ML in production ###
+## Must-haves for ML in production ##
 * Maximize resources, reuse features
 * Never stop learning
 * When scaling matters
@@ -94,7 +91,7 @@ agencies
     * Willing to give up expressive power
     * Non-CS PhD with a weekend to kill (i.e. hackathon)
 
-### Rise of Automatic Feature Libraries ###
+## Rise of Automatic Feature Libraries ##
 * Writing good features is painful
     * Many used default automatic feture libraries .. not great
     * Or deep learning
@@ -104,7 +101,7 @@ agencies
 
 Note: I had to fix something that broke on my website at this point, so I stopped taking notes.
 
-## Emily Fox -- Amazon Professor of Machine Learning, University of Washington ##
+# Emily Fox -- Amazon Professor of Machine Learning, University of Washington #
 **Machine Learning for Complex Time Series**
 * Hidden Markup Models (HMM)
 * Challenges:
@@ -121,7 +118,7 @@ your model becomes infeasible
     * Something else I didn't catch
 * Runtime = 1 hr
 
-### Discover structure across "space" ###
+## Discover structure across "space" ##
 * Collection of time series where there are a sparse set of of dependencies
 * Cluster regionas based on underlying price dynamics
     * Discover groups of tracts with correlated dynamics
@@ -143,9 +140,9 @@ your model becomes infeasible
         * Helmet with 102 sensors
         * More accurate than any other current method
 
-## Jennifer Rose -- Professor @ Wesleyan ##
+# Jennifer Rose -- Professor @ Wesleyan #
 **Increasing diversity in data science**
-### Why do we need diversity in data science? ###
+## Why do we need diversity in data science? ##
 * When it comes time to tell the story of your data analysis, your background introduces
  bias, and if you have too many similar individuals in the same place, that bias can carry
  more weight than it would be in a more diverse working group
@@ -153,7 +150,7 @@ your model becomes infeasible
    * Impacts the questions we ask in the first place
    * Ramps up creativity
 
-### Method for increasing diversity ###
+## Method for increasing diversity ##
 * Strategies for increasing diversity
     * Branch out to other disciplines
     * Evoke curiosity and passion through multidisciplinary project-based learning
@@ -179,6 +176,4 @@ interests them, pick a dataset, and deelop a research question that the seek to 
 * <a href="http://passiondrivenstatistics.com" target="_blank">passiondrivenstatistics.com</a>
 * This method of teaching resulted in enrolling significantly more under-prepresented students
 than the traditional math statistics course
-
-
-
+* Coursera's data analysis and interpretation track
