@@ -26,7 +26,7 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 810px;
   padding: 0 10px;
   width: 100%;
 
@@ -35,10 +35,11 @@ body {
 .block {
   background-color: $backgroundOffWhite;
   border-radius: 14px;
+  border: solid 1px #808080;
   padding: 6px 15px 11px 15px;
-  -moz-box-shadow: 0 0 3px #666;
-  -webkit-box-shadow: 0 0 3px #666;
-  box-shadow: 0 0 3px #666;
+  -moz-box-shadow: 6px 6px 6px #808080;
+  -webkit-box-shadow: 6px 6px 6px #808080;
+  box-shadow: 6px 6px 6px #808080;
 }
 
 .block_header {
@@ -198,6 +199,12 @@ img {
   -webkit-box-shadow: 3px 3px 3px #666;
   box-shadow: 3px 3px 3px #666;
 
+  border: solid 1px #808080;
+  
+  -moz-box-shadow: 6px 6px 6px #808080;
+  -webkit-box-shadow: 6px 6px 6px #808080;
+  box-shadow: 6px 6px 6px #808080;
+
   @include mobile {
     text-align: center;
   }
@@ -212,7 +219,7 @@ img {
   
   -moz-box-shadow: 1px 1px 1px #666;
   -webkit-box-shadow: 1px 1px 1px #666;
-  box-shadow: 1px 1px 1px #666;
+  //box-shadow: 1px 1px 1px #666;
 
   @include mobile {
     float: none;

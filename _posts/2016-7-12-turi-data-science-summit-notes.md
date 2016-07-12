@@ -102,8 +102,6 @@ agencies
 * ImageNet took years to build
 * **Goal** - build large training sets using only standard tools
 
-### Data Programming ###
-* It's difficult to get enough training data to run automatic feature libraries
-*
+Note: I had to fix something that broke on my website at this point, so I stopped taking notes.
 
-### Omnivore ###
+
