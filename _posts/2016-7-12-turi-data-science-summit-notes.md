@@ -6,7 +6,7 @@ I'll be live-blogging Turi's 2016 Data Science Summit in San Francisc, CA. Hopef
 understand!
 
 # Turi Data Science Summit Notes #
-**July 12-13, 2016 @ The Fairmont Hotel**
+**July 12-13, 2016 @ The Fairmont Hotel**  
 Turi was formerly known as Dato, creators of SFrame and GraphLab Create
 
 ## Keynote -- Carlos Guestrin -- CEO Turi, Amazon Professor of Machine Learning, University of Washington ##
@@ -52,6 +52,7 @@ and data behind the recommender systems to gain patient trust
 
 #### Training a model to predict wolf v. husky ###
 * Only one mistake -- do you trust the model?
+* What if you're having a husky festival and one single wolf shows up and kills someone!?
 * Upon further investigation, Carlos showed that the wolf predictor was actually a snow predictor
 
 #### Famous 20 Newsgroups dataset ####
