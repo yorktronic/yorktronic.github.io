@@ -36,9 +36,9 @@ body {
   background-color: $backgroundOffWhite;
   border-radius: 14px;
   padding: 6px 15px 11px 15px;
-  -moz-box-shadow: 3px 3px 3px #666;
-  -webkit-box-shadow: 3px 3px 3px #666;
-  box-shadow: 3px 3px 3px #666;
+  -moz-box-shadow: 0 0 3px #666;
+  -webkit-box-shadow: 0 0 3px #666;
+  box-shadow: 0 0 3px #666;
 }
 
 .block_header {
