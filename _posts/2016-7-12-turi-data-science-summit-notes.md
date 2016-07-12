@@ -104,4 +104,43 @@ agencies
 
 Note: I had to fix something that broke on my website at this point, so I stopped taking notes.
 
+## Emily Fox -- Amazon Professor of Machine Learning, University of Washington ##
+**Machine Learning for Complex Time Series**
+* Hidden Markup Models (HMM)
+* Challenges:
+    * Sementation into behaviors
+    * Parameter per behaviour
+    * How many behaviors?
+* Problem appears in many domains, including: Parsing EEG data, other medical diagnostic data, etc.
+* Bayesian HMM's
+* When you have time segments ~ 2 million, parsing the dataset every time you want to reatrain
+your model becomes infeasible
+* Solution: brak into manageable segments
+    * Naive - analyze separately
+    * Smart
+    * Something else I didn't catch
+* Runtime = 1 hr
+
+### Discover structure across "space" ###
+* Collection of time series where there are a sparse set of of dependencies
+* Cluster regionas based on underlying price dynamics
+    * Discover groups of tracts with correlated dynamics
+    * In the housing example, look at locations that are closely related to the location you
+    are trying to predict
+    * Marrying trends / features that are globally applicable versus locally applicable
+* Cluster and correlate multiple time series
+    * Challenge: unknown cluster structure = unknown @ blocks and size of each
+    * Solution: Latent factor model + Bayesian nonparametrics
+* Methods for relating high-dimensional time series
+    * Approach 1: Clusters of time series = marginal independence
+    * Approach 2: Graphical models = conditional independence
+        * Motivation for this came from Magnetoenchephalography (MEG) time-series data
+        * Transform time-series from the time domain to the frequency domain
+        * Example: daily returns from a set of global stock indicies (shows a node graph representing
+        what countries are related?)
+    * Approach 3: Low-dimensional embedding of dynamics
+        * MEG word classification task
+        * Helmet with 102 sensors
+        * More accurate than any other current method
+
 
