@@ -12,6 +12,7 @@ understand!
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+
 - [Keynote -- Carlos Guestrin](#keynote----carlos-guestrin)
 - [DeepDive -- A Dark Data System](#deepdive----a-dark-data-system)
 - [Machine Learning for Analyzing Complex Time Series](#machine-learning-for-analyzing-complex-time-series)
@@ -21,6 +22,7 @@ understand!
 - [Machine Learning in Production](#machine-learning-in-production)
 - [The Five Tribes of Machine Learning, and What you can Take from Each](#the-five-tribes-of-machine-learning-and-what-you-can-take-from-each)
 - [Small Team, Large Impact - how we solved it](#small-team-large-impact---how-we-solved-it)
+- [Industry Panel with representatives from Quora, Turi, Tableau, and Pinterist](#industry-panel-with-representatives-from-quora-turi-tableau-and-pinterist)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -286,7 +288,9 @@ This was a table
 * 360 degree recommenders
 
 # Small Team, Large Impact - how we solved it #
+
 **Robert Glinton, Senior Director of Data Science Applications, Salesforce**
+
 * Increasing productivity by building tools for data prep, experimentation, and deployment
 * Time wasted when data pipeline is not durable
     * 3-6 weeks to find data
@@ -326,6 +330,7 @@ This was a table
 **Dr. Jock MacKinlay from Tableau**
 **Dr. Jure Leskovec from Pinterist**
 **Richard Waters as Moderator**
+
 * Measuring model improvement
     * Carlos: it depends on the application -- what does a 1% improvement in accuracy mean
     for Fraud vs. some classifier
@@ -356,9 +361,11 @@ why certain recommendations are happening? If not, **you've got a problem.**
 * **Jock**: An issue greater than bug squashing is making sure all your assumptions are correct
 
 **Question: is deep learning over-hyped right now?**
+
 * **Carlos**: "I think deep learning is definitely at the top of the hype cycle"
 
 **Question: what are some of the worst bugs you've experienced?**
+
 * Didn't use the right notion of positive in a label -- needed better thinking on what "positive" is
 * At least 90% of the things you do should fail. If that isn't the case, you aren't moving fast
 enough or need to be comfortable with taking more risks
@@ -368,25 +375,30 @@ instead of 5
 * Even if your model looks good, it may not look good for the right reasons
 
 **Question: How do you trust your models?**
+
 * Develop a hypothesis before your start building a model
 * Multiple hypothesis testing problem -- even a bad model can be right once a day
 
 **Question: do we need a learning layer on top of your machine learning models to evaluate performance?**
+
 * Yes
 * Still problems with overfitting and multiple hypothesis testing
 * *Ridge regression, l1 and l2 norm optimization, functional programming to call multiple
 types with the same data helps in this regard?*
 
 **Question: How do you balance the amount of research versus product work?**
+
 * Tableau has a hackathon culture
 * Make sure enough of the research portfolio has impact on the rest of the organization
 * See what problems really matter for research and what problems have the most impact on the company
 
 **Question: Do I need to have a PhD to get in to machine learning?**
+
 * 10-15 years ago you would not get machine learning in a standard computer science or statistics program.
 That is changing rapidly
 
 **Question: HR example**
+
 * We can miss opportunities and waste resources -- got to find a happy medium
 * There's a company in Seattle that automates the first-round phone interview. You interview
 with a robot
@@ -395,4 +407,5 @@ the people you rejected
 
 **Question: I have billions of records in my data, and not many computing resources. How do I sample this data
 to label it and run experiments**
+
 * Take advantage all the unlabeled data in a semi-unsupervised machine learning model
