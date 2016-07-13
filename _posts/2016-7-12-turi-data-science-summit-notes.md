@@ -4,13 +4,32 @@ title: Live-blogging the 2016 Data Science Summit in SF
 ---
 **July 12-13, 2016 @ The Fairmont Hotel**
 I'll be live-blogging Turi's 2016 Data Science Summit in San Francisco, CA. Hopefully my notes are relatively easy to
-understand! ***Note: Turi was formerly known as Dato, creators of SFrame and GraphLab Create***
+understand!
 
-# DAY ONE #
+***Note: Turi was formerly known as Dato, creators of SFrame and GraphLab Create***
+
+# Table of Contents #
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [Keynote -- Carlos Guestrin](#keynote----carlos-guestrin)
+- [DeepDive -- A Dark Data System](#deepdive----a-dark-data-system)
+- [Machine Learning for Analyzing Complex Time Series](#machine-learning-for-analyzing-complex-time-series)
+- [Increasing Diversity in Data Science](#increasing-diversity-in-data-science)
+- [Interesting Tools and Research](#interesting-tools-and-research)
+- [Churn Prediction Tutorial](#churn-prediction-tutorial)
+- [Machine Learning in Production](#machine-learning-in-production)
+- [The Five Tribes of Machine Learning, and What you can Take from Each](#the-five-tribes-of-machine-learning-and-what-you-can-take-from-each)
+- [Small Team, Large Impact - how we solved it](#small-team-large-impact---how-we-solved-it)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 
 ---
 
-# Keynote -- Carlos Guestrin -- CEO Turi, Amazon Professor of Machine Learning, University of Washington #
+# Keynote -- Carlos Guestrin #
+**CEO Turi, Amazon Professor of Machine Learning, University of Washington**
+
 * <a href="https://twitter.com/guestrin?lang=en" target="_blank">@guestrin</a>
 * Last year, Netflix spent $600 million on their AI team
 * In 5 years, every application is going to be intelligent (will utilize some form of machine learning)
@@ -79,8 +98,11 @@ prediction
 * Maximize resources, reuse features
 * Never stop learning
 * When scaling matters
-* Explain yourself, explain your modles
+* Explain yourself, explain your modlues
 * Get away from the "my curve is better than your curve"
+
+# DeepDive -- A Dark Data System #
+**Professor Chris Ré, Carnegie Melon University**
 
 ## Ameliorating the Annotation Bottleneck ##
 * Data programming, asynchronous deep learning
@@ -105,8 +127,8 @@ agencies
 
 Note: I had to fix something that broke on my website at this point, so I stopped taking notes.
 
-# Emily Fox -- Amazon Professor of Machine Learning, University of Washington #
-**Machine Learning for Complex Time Series**
+# Machine Learning for Analyzing Complex Time Series  #
+**Emily Fox, Amazon Professor of Machine Learning, University of Washington**
 * Hidden Markup Models (HMM)
 * Challenges:
     * Sementation into behaviors
@@ -144,8 +166,8 @@ your model becomes infeasible
         * Helmet with 102 sensors
         * More accurate than any other current method
 
-# Jennifer Rose -- Professor @ Wesleyan #
-**Increasing diversity in data science**
+# Increasing Diversity in Data Science #
+**Jennifer Rose, Professor @ Wesleyan**
 ## Why do we need diversity in data science? ##
 * When it comes time to tell the story of your data analysis, your background introduces
  bias, and if you have too many similar individuals in the same place, that bias can carry
@@ -196,16 +218,105 @@ than the traditional math statistics course
 ***Note: Pretty much all of this tutorial was done in a Jupyter Notebook and cam be found in
 <a href="http://github.com/yorktronic/turi-tutorials" target="_blank">this repo on my GitHub.</a>***
 
-# DAY TWO #
+# Machine Learning in Production #
+**Dr. Yucheng Low, Chief Architect @ Turi**
 
----
-
-# Dr. Yucheng Low, Chief Architect @ Turi -- Machine Learning in Production #
-***Note: Arrived late to the conference today, and this was the first presentation I attended, so my notes
-for this presentation are in complete.***
+*Note: Arrived late to the conference today, and this was the first presentation I attended, so my notes
+for this presentation are in complete.*
  * When using a classifier, one popular technique is to utilize geolocation
     * Example was identifying photos of pie in Seattle, where there's a very famous restaraunteur
     who has a reputable Coconut Cream Pie
     * So, if you were to utilize a geolocation of a user in Seattle, the  probability that
     their photo is a coconut crem pie is higher than if they were in Texas or something
+
+# The Five Tribes of Machine Learning, and What you can Take from Each #
+**Professor Pedro Domingo, University of Washington**
+This was a table
+* Symbolists - Logic, Philosophy, Inverse deduction
+* Connectionists - Neuroscience - Backpropgation
+* Evolutionaries - Evolutionary Biology - Genetic programming
+* Bayesians - Uncertainty - Probabilistic Inference
+* Anologizers - Similarity - Kernal Machines
+
+## Symbolists ##
+* Learning is inverse deduction, i.e. induction
+* Their focus is induction
+* "If I know that Socrates is human, and humans are mortal, deduction dictates that Socrates is human"
+* "If I know that Socrates is human, and I know that Socrates is mortal, what do I know about humans?"
+
+## Connectionists ##
+* The greatest machine laerning is the one inside your skull
+* One connectionist believes that the way the brain learns can be defined in a single algorithm
+    * Invented <a href="https://en.wikipedia.org/wiki/Backpropagation" target="_blank">Backpropogation</a>
+    * Backprop works backwards from the last node in a decision trees, adjusting weights
+    to reduce error for each node from end to beginning
+* Google Cat Network - cats are the most uploaded singe video type on YouTube
+
+## Evolutionaries ##
+* Genetic algorithm of how evolution workds
+    * Bitstring encodes a program that defines a person
+    * Multiple permutations of bitstrings defines the biological difference between humans
+    * The fittest bitstrings survive and reproduce themselves
+
+## Bayesians ##
+* What Bayesians are obsessed with is that all knowledge learned from data is uncertain
+* Define probability of a hypothesis before you even see the data
+* When you see the data, the likelihood, which then leads to the posterior probability
+* Nearet Neightbor
+
+## Analogizers ##
+* Kernel Machines = Support Vector Machines
+* Support Vector Machines - giving a wide birth between two categories for an output of a classifier
+
+## Putting the Pieces Together ##
+* Representation
+    * Probabilistic Logic (e.g. Markov logic networkds)
+    * Weighted formulas -> distribution over states
+* Evaluation
+    * Posterior probability
+    * User-defined objective function
+* Optimization
+    * Formula discovery: Genetic programming
+    * Weight learning: Backpropogation
+
+## What a Universal Learner Will Enable ##
+* Home robots
+* World-wide brains
+* Cancer cures
+* 360 degree recommenders
+
+# Small Team, Large Impact - how we solved it #
+**Robert Glinton, Senior Director of Data Science Applications, Salesforce**
+* Increasing productivity by building tools for data prep, experimentation, and deployment
+* Time wasted when data pipeline is not durable
+    * 3-6 weeks to find data
+    * 1 week to understand the data
+    * Some more time to evaluate and write scrips
+* <a href="https://alation.com/" target="_blank">Alation - automated data catalog</a>
+    * Automatically crawls and documents data across all data sources to understand the emantics of data
+    * Users write articles and have conversations around artifacts identifiied by Alation
+* Wpeedup to data preparation pipeline
+    * Faster onboarding
+    * Correct data
+    * Alignment to semantics
+* Feature selection automation
+    * orgDNA - explors cubes in the data and scores them for how unusual the output is relative to the baseline
+    * In this example Promo = Promo II is a good feature because revenue $1,000 is unusually small
+    compared to baseline of $1M
+        * Because it explains the varience in revenue
+    * Computationally they pull this off by constraining the models to no more than three dimensions
+* <a href="https://www.dominodatalab.com/" target="_blank">Domino - continuous experimentation system for data science</a>
+    * Version the data the code is analyzing in addition to the code itself
+    * Dockerized backend to tweak experiments endlessly
+        * AKA "Versioned experiment"
+        * Allows for apples to apples comparison between models
+        * Docker + Reproducibility = Many ideas in parallel
+* Why not Github?
+    * Support for experiments
+    * Reproducibility
+    * Two other things I didn't catch
+* Deployment
+    * Model monitoring automation - design a monitoring system that will alert you when it detects
+    drift or other metrics that warrant attention to a model
+    * ***This will be useful for the btc price predictor I'm working on***
 
