@@ -6,6 +6,10 @@ title: Live-blogging the 2016 Data Science Summit in SF
 I'll be live-blogging Turi's 2016 Data Science Summit in San Francisco, CA. Hopefully my notes are relatively easy to
 understand! ***Note: Turi was formerly known as Dato, creators of SFrame and GraphLab Create***
 
+# DAY ONE #
+
+---
+
 # Keynote -- Carlos Guestrin -- CEO Turi, Amazon Professor of Machine Learning, University of Washington #
 * <a href="https://twitter.com/guestrin?lang=en" target="_blank">@guestrin</a>
 * Last year, Netflix spent $600 million on their AI team
@@ -172,6 +176,7 @@ interests them, pick a dataset, and deelop a research question that the seek to 
     * Interpreting results and drawing conclusions
     * Reconciling study limitations
     * Presenting findings
+
 * **Just in time learning**
 * <a href="http://passiondrivenstatistics.com" target="_blank">passiondrivenstatistics.com</a>
 * This method of teaching resulted in enrolling significantly more under-prepresented students
@@ -191,4 +196,16 @@ than the traditional math statistics course
 ***Note: Pretty much all of this tutorial was done in a Jupyter Notebook and cam be found in
 <a href="http://github.com/yorktronic/turi-tutorials" target="_blank">this repo on my GitHub.</a>***
 
+# DAY TWO #
+
+---
+
+# Dr. Yucheng Low, Chief Architect @ Turi -- Machine Learning in Production #
+***Note: Arrived late to the conference today, and this was the first presentation I attended, so my notes
+for this presentation are in complete.***
+ * When using a classifier, one popular technique is to utilize geolocation
+    * Example was identifying photos of pie in Seattle, where there's a very famous restaraunteur
+    who has a reputable Coconut Cream Pie
+    * So, if you were to utilize a geolocation of a user in Seattle, the  probability that
+    their photo is a coconut crem pie is higher than if they were in Texas or something
 
