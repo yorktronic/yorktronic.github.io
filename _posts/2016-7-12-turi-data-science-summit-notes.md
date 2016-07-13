@@ -376,3 +376,23 @@ instead of 5
 * Still problems with overfitting and multiple hypothesis testing
 * *Ridge regression, l1 and l2 norm optimization, functional programming to call multiple
 types with the same data helps in this regard?*
+
+**Question: How do you balance the amount of research versus product work?**
+* Tableau has a hackathon culture
+* Make sure enough of the research portfolio has impact on the rest of the organization
+* See what problems really matter for research and what problems have the most impact on the company
+
+**Question: Do I need to have a PhD to get in to machine learning?**
+* 10-15 years ago you would not get machine learning in a standard computer science or statistics program.
+That is changing rapidly
+
+**Question: HR example**
+* We can miss opportunities and waste resources -- got to find a happy medium
+* There's a company in Seattle that automates the first-round phone interview. You interview
+with a robot
+* When you hire someone, you only have data for the people who you hired. You don't have data on
+the people you rejected
+
+**Question: I have billions of records in my data, and not many computing resources. How do I sample this data
+to label it and run experiments**
+* Take advantage all the unlabeled data in a semi-unsupervised machine learning model
