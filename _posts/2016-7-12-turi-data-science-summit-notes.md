@@ -79,17 +79,17 @@ prediction
 * Get away from the "my curve is better than your curve"
 
 ## Ameliorating the Annotation Bottleneck ##
-Data programming, asynchronous deep learning
+* Data programming, asynchronous deep learning
 * non-"Dark Data" - spreadsheets, relational databases, etc.
 * "Dark Data" - Valuable and hard to process data from scientific articles, documents, etc.
 * Dark data processing was used for fighting human trafficking, partnering with law enforcement
 agencies
 * Some routine cases should be much easier
-    * Simple classifiers and regression
-    * Entity and relationship extraction
+* Simple classifiers and regression
+* Entity and relationship extraction
 * **Challenge** - Make systems dramatically easier to use
-    * Willing to give up expressive power
-    * Non-CS PhD with a weekend to kill (i.e. hackathon)
+* Willing to give up expressive power
+* Non-CS PhD with a weekend to kill (i.e. hackathon)
 
 ## Rise of Automatic Feature Libraries ##
 * Writing good features is painful
@@ -186,3 +186,9 @@ than the traditional math statistics course
 * SeaFlow (might be interesting for Mark)
 * Ashes CAMHD (ocean floor HD cameras that pass photos to data scientists for analytics)
     * Separating foreground and background using matrix factorization
+
+# Churn Prediction Tutorial #
+***Note: Pretty much all of this tutorial was done in a Jupyter Notebook and cam be found in
+<a href="http://github.com/yorktronic/turi-tutorials" target="_blank">this repo on my GitHub.</a>***
+
+
