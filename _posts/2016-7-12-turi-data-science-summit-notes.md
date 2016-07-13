@@ -320,3 +320,59 @@ This was a table
     drift or other metrics that warrant attention to a model
     * ***This will be useful for the btc price predictor I'm working on***
 
+# Industry Panel with representatives from Quora, Turi, Tableau, and Pinterist #
+**Dr. Xavier Amatrian from Quora**
+**Dr. Carlos Guestrin from Turi**
+**Dr. Jock MacKinlay from Tableau**
+**Dr. Jure Leskovec from Pinterist**
+**Richard Waters as Moderator**
+* Measuring model improvement
+    * Carlos: it depends on the application -- what does a 1% improvement in accuracy mean
+    for Fraud vs. some classifier
+    * Any improvement in fraud detection is positive. Fraud is just flushing money down the
+    toilet, so any reduction in fraud is a good thing
+* Building machine learning applications and models so they are more widely applicable to
+people in your company
+* Need to always think critically about what the business questions being asked are and how
+they can be generalized to make a model more widely useable
+* **Jock**: Need to identify low hanging fruit versus harder problems
+* **Carlos**: Brought up HR wanting to apply machine learning to identifying the best interview
+candidates
+* **Jure**: Have to identify / demonstrate value early on by hacking your models together quickly
+* **Xavier** Occam's Razor -- in the first stage, don't even introduce machine learning. Let
+the product team hard code something that conforms with the business rules of the company.
+Deep learning has great applications in image and language processing, but there are many
+applications where deep learning would likely yeild lower performance than simpler models
+    * A 1% increase in accuracy might not be worth the increase in complexity associated with
+    deep learning. Additionally, you must also consider the amount of maintenance that would
+    be needed to maintian a deep learning model in production
+* **Carlos**: one space that is really aided by machine learning is streaming / activity data
+(user activity on a website, for example). Boosted Trees is useful in this space
+* **Jure**: always think about the value of your model / application at its earliest iteration?
+Think about providing some accuracy over the baseline and how useful that would be BEFORE you
+go down the road of optimization
+* **Carlos:** Transparency is one of the most impotrant things in machine learning. Can you explain
+why certain recommendations are happening? If not, **you've got a problem.**
+* **Jock**: An issue greater than bug squashing is making sure all your assumptions are correct
+
+**Question: is deep learning over-hyped right now?**
+* **Carlos**: "I think deep learning is definitely at the top of the hype cycle"
+
+**Question: what are some of the worst bugs you've experienced?**
+* Didn't use the right notion of positive in a label -- needed better thinking on what "positive" is
+* At least 90% of the things you do should fail. If that isn't the case, you aren't moving fast
+enough or need to be comfortable with taking more risks
+* In terms of targeting users to return to a website, are you measuring the success of a particular
+email, or is the result of sending an additional email just because you have sent 6 emails
+instead of 5
+* Even if your model looks good, it may not look good for the right reasons
+
+**Question: How do you trust your models?**
+* Develop a hypothesis before your start building a model
+* Multiple hypothesis testing problem -- even a bad model can be right once a day
+
+**Question: do we need a learning layer on top of your machine learning models to evaluate performance?**
+* Yes
+* Still problems with overfitting and multiple hypothesis testing
+* *Ridge regression, l1 and l2 norm optimization, functional programming to call multiple
+types with the same data helps in this regard?*
