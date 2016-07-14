@@ -42,7 +42,7 @@ understand!
 ## What makes a ML platform agile? ##
 * Turi now offers microservices (Turi predictive services) where you can utilize GraphLab Create
 to deploy code to the cloud
-* I'm guessing this would allow you to run ML models on GPUs?
+* I'm guessing this would allow you to run ML models on Turi servers with GPUs? Because that'd be cool.
 
 ### Updating Models ###
 * Models are stale the moment they are trained
