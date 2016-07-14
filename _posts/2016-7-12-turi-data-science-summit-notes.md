@@ -33,7 +33,6 @@ understand!
 **CEO Turi, Amazon Professor of Machine Learning, University of Washington**
 
 * <a href="https://twitter.com/guestrin?lang=en" target="_blank">@guestrin</a>
-* Last year, Netflix spent $600 million on their AI team
 * In 5 years, every application is going to be intelligent (will utilize some form of machine learning)
 
 ## Decision Trees Utilizing Node Decisions as non-linear Features for other models ##
