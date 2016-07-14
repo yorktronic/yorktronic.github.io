@@ -227,6 +227,7 @@ than the traditional math statistics course
 
 *Note: Arrived late to the conference today, and this was the first presentation I attended, so my notes
 for this presentation are in complete.*
+
  * When using a classifier, one popular technique is to utilize geolocation
     * Example was identifying photos of pie in Seattle, where there's a very famous restaraunteur
     who has a reputable Coconut Cream Pie
