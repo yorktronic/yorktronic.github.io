@@ -131,6 +131,7 @@ Note: I had to fix something that broke on my website at this point, so I stoppe
 
 # Machine Learning for Analyzing Complex Time Series  #
 **Emily Fox, Amazon Professor of Machine Learning, University of Washington**
+
 * Hidden Markup Models (HMM)
 * Challenges:
     * Sementation into behaviors
@@ -170,6 +171,7 @@ your model becomes infeasible
 
 # Increasing Diversity in Data Science #
 **Jennifer Rose, Professor @ Wesleyan**
+
 ## Why do we need diversity in data science? ##
 * When it comes time to tell the story of your data analysis, your background introduces
  bias, and if you have too many similar individuals in the same place, that bias can carry
@@ -233,7 +235,9 @@ for this presentation are in complete.*
 
 # The Five Tribes of Machine Learning, and What you can Take from Each #
 **Professor Pedro Domingo, University of Washington**
-This was a table
+
+*This was a table, and I'll turn it in to a table tomorrow*
+
 * Symbolists - Logic, Philosophy, Inverse deduction
 * Connectionists - Neuroscience - Backpropgation
 * Evolutionaries - Evolutionary Biology - Genetic programming
