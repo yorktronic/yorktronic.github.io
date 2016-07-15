@@ -6,6 +6,9 @@ title: Live-blogging the 2016 Data Science Summit in SF
 I'll be live-blogging Turi's 2016 Data Science Summit in San Francisco, CA. Hopefully my notes are relatively easy to
 understand!
 
+These notes along with the tutorials I worked on at the conference can also be found <a href="https://github.com/yorktronic/data-science-summit-2016-san-francisco/" target="_blank">in this repo</a>
+on my GitHub.
+
 ***Note: Turi was formerly known as Dato, creators of SFrame and GraphLab Create***
 
 # Table of Contents #
