@@ -219,7 +219,7 @@ than the traditional math statistics course
 
 # Churn Prediction Tutorial #
 ***Note: Pretty much all of this tutorial was done in a Jupyter Notebook and cam be found in
-<a href="http://github.com/yorktronic/turi-tutorials" target="_blank">this repo on my GitHub.</a>***
+<a href="https://github.com/yorktronic/data-science-summit-2016-san-francisco/churn_prediction-tutorial" target="_blank">this repo on my GitHub.</a>***
 
 # Machine Learning in Production #
 **Dr. Yucheng Low, Chief Architect @ Turi**
