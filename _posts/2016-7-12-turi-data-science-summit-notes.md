@@ -5,8 +5,7 @@ title: Live-blogging the 2016 Data Science Summit in SF
 **July 12-13, 2016 @ The Fairmont Hotel**
 
 I'll be live-blogging Turi's 2016 Data Science Summit in San Francisco, CA. Hopefully my notes are relatively easy to
-understand! These notes along with the tutorials I worked on at the conference can also be found <a href="https://github.com/yorktronic/data-science-summit-2016-san-francisco/" target="_blank">in this repo</a>
-on my GitHub.
+understand!
 
 ***Note: Turi was formerly known as Dato, creators of SFrame and GraphLab Create***
 
@@ -220,8 +219,7 @@ than the traditional math statistics course
     * Separating foreground and background using matrix factorization
 
 # Churn Prediction Tutorial #
-***Note: Pretty much all of this tutorial was done in a Jupyter Notebook and cam be found in
-<a href="https://github.com/yorktronic/data-science-summit-2016-san-francisco/churn_prediction-tutorial" target="_blank">this repo on my GitHub.</a>***
+***Note: I tried to put this tutorial on GitHub but had several issues with large files and right now it's not working. It'll be up sooner rather than later***
 
 # Machine Learning in Production #
 **Dr. Yucheng Low, Chief Architect @ Turi**
