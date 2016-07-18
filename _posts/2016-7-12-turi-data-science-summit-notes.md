@@ -2,9 +2,6 @@
 layout: post
 title: Live-blogging the 2016 Data Science Summit in SF
 ---
-
-# 2016 San Francisco Data Sciece Summit Notes + Tutorials #
-
 **July 12-13, 2016 @ The Fairmont Hotel**
 
 These notes along with the tutorials I worked on at the conference can also be found in <a href="https://github.com/yorktronic/ds-summit-2016">this repo</a> on my GitHub.
