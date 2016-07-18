@@ -222,6 +222,7 @@ than the traditional math statistics course
 
 # Tutorials #
 Turi hosted several tutorial sessions using GraphLab Create in some interesting applications, including:
+
 * Customer Churn Prediction
 * Lead Scoring
 * Building a Recommender System
