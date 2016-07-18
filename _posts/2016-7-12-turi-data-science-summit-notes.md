@@ -18,7 +18,7 @@ These notes along with the tutorials I worked on at the conference can also be f
 - [Machine Learning for Analyzing Complex Time Series](#machine-learning-for-analyzing-complex-time-series)
 - [Increasing Diversity in Data Science](#increasing-diversity-in-data-science)
 - [Interesting Tools and Research](#interesting-tools-and-research)
-- [Churn Prediction Tutorial](#churn-prediction-tutorial)
+- [Tutorials](#tutorials)
 - [Machine Learning in Production](#machine-learning-in-production)
 - [The Five Tribes of Machine Learning, and What you can Take from Each](#the-five-tribes-of-machine-learning-and-what-you-can-take-from-each)
 - [Small Team, Large Impact - how we solved it](#small-team-large-impact---how-we-solved-it)
