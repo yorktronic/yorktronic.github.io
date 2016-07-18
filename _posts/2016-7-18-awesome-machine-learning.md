@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Amazing curated list of machine learning frameworks, libraries, and tools
+title: Amazing curated list of machine learning tools
 ---
 A week or so ago, I was looking at the Apollo 11 Guidance Computer Source code made public by
 NASA and digitized by <a href="http://www.ibiblio.org/apollo/" target="_blank">Virtual AGC</a> and
