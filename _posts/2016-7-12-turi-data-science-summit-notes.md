@@ -1,11 +1,13 @@
-2016 San Francisco Data Sciece Summit Notes + Tutorials
+---
+layout: post
+title: Live-blogging the 2016 Data Science Summit in SF
+---
 
-This repo contains notes and tutorials from the 2016 Data Science Summit in San Franciso,
-CA, which was organized by Turi (formerly known as Dato, creators of GraphLab Create).
-A complete list of sponsors can be found <a href="http://conf.turi.com/2016/us/sponsors/" target="_blank">
-here</a>. Below are my notes from the conference.
+# 2016 San Francisco Data Sciece Summit Notes + Tutorials #
 
 **July 12-13, 2016 @ The Fairmont Hotel**
+
+These notes along with the tutorials I worked on at the conference can also be found in <a href="https://github.com/yorktronic/ds-summit-2016">this repo</a> on my GitHub.
 
 ***Note: Turi was formerly known as Dato, creators of SFrame and GraphLab Create***
 
