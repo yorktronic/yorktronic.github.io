@@ -2,6 +2,9 @@
 layout: post
 title: Live-blogging the 2016 Data Science Summit in SF
 ---
+I attended the 2016 Data Science Summit in SF hosted by Turi and sponsored by a <a href="http://conf.turi.com/2016/us/sponsors/" target="_blank">number of
+companies</a>. It was awesome! Here are my notes.
+
 **July 12-13, 2016 @ The Fairmont Hotel**
 
 These notes along with the tutorials I worked on at the conference can also be found in <a href="https://github.com/yorktronic/ds-summit-2016">this repo</a> on my GitHub.
