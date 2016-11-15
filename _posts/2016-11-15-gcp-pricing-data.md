@@ -26,7 +26,8 @@ for version in old_pricing:
     if version = 'current':
         url = 'http://cloudpricingcalculator.appspot.com/static/data/pricelist.json'
     else:
-        url = 'http://{}.cloudpricingcalculator.appspot.com/static/data/pricelist.json'.format(version)
+        url = ('http://{}.cloudpricingcalculator.appspot.com'
+            + '/static/data/pricelist.json').format(version)
     pricing[version] = requests.get(url).json()['gcp_price_list']
 
 # then do whatever you want with the data 
