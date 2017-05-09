@@ -1,11 +1,8 @@
 ---
 layout: page
-title:
+title: Projects
 permalink: /projects/
 ---
-
-# Data Science
-
 1. <a href="https://github.com/yorktronic/data_science/tree/master/thinkful/Unit4/decision-trees">Predicting body position of smartphone users based on accelerometer data</a>. Decision trees, random forest, black box analysis, dato, graphlab create.
 
 2. <a href="https://github.com/yorktronic/data_science/tree/master/thinkful/Unit2/logistic_regression">What is the probability you'll get a loan from Lending Club?</a> Logistic regression, statsmodels, pandas, numpy.

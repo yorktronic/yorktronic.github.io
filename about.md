@@ -1,9 +1,8 @@
 ---
 layout: page
+title: About Ty
 permalink: /about/
 ---
-# The Important Stuff
-
 My name is Ty, and I'm a data scientist with a focus on recommendation systems. In my old job
 I was a business consultant, analyst, industrial engineer, and developer of sorts, helping to
 make a the <a href="https://www.gsa.gov">United States General Services Administration</a>
