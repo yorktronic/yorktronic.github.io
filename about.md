@@ -2,7 +2,7 @@
 layout: page
 permalink: /about/
 ---
-# The Important Stuff #
+# The Important Stuff
 
 My name is Ty, and I'm a data scientist with a focus on recommendation systems. In my old job
 I was a business consultant, analyst, industrial engineer, and developer of sorts, helping to
@@ -17,7 +17,7 @@ I have since left that job to pursue data science, cryptocurrency, and software 
 or contact me on <a href="https://www.linkedin.com/in/ty-walker-2231052" target="_blank">LinkedIn</a>,
 <a href="https://angel.co/ty-walker-1" target="_blank">AngelList</a>, or <a href="https://www.upwork.com/fl/tywalker" target="_blank">Upwork</a>.
 
-# Additional Skills #
+# Additional Skills
 <style>
     table{
         border-collapse: collapse;

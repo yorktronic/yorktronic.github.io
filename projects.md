@@ -4,7 +4,7 @@ title:
 permalink: /projects/
 ---
 
-# Data Science #
+# Data Science
 
 1. <a href="https://github.com/yorktronic/data_science/tree/master/thinkful/Unit4/decision-trees">Predicting body position of smartphone users based on accelerometer data</a>. Decision trees, random forest, black box analysis, dato, graphlab create.
 
@@ -24,7 +24,7 @@ permalink: /projects/
 
 9. <a href="https://github.com/yorktronic/coursera-ml-foundations/tree/master/w3">Sentiment analysis of Amazon.com product reviews</a>. Natural language processing, classification.
 
-# Web Development #
+# Web Development
 
 I built the <a href="http://sffeb.us" target="_blank">San Francisco Federal Executive Board website</a> in 60 days, back when I worked for Uncle Sam. I no longer run the site so if there's anything bad about it, it's not my fault :) The site was built using WordPress.
 
