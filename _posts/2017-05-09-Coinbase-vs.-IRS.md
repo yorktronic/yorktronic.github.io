@@ -4,10 +4,10 @@ title: Coinbase vs. IRS
 ---
 I normally keep my cryptocurrency stuff relegated to Twitter, but this is some news that should be interesting to anyone who is curious about such things...  
 
-# Background
+## Background
 <a href="https://coinbase.com">Coinbase</a> is one of the most popular wallet services and ways to purchase Bitcoin in the United States, and their exchage <a href="https://gdax.com">GDAX</a> is similarly prominent. I believe they were one of the first services to offer deposits from bank accounts, and one of the first to issue Visa Bitcoin "Shift" debit cards that can be used to pay for things in Bitcoin, Litecoin, Ethereum, or USD wherever Visa is accepted. Simply put, they were kind of the best in the business when it came to helping anyone from a layperson to someone like me go from USD to BTC via a relatively easy process. I have used them since I started dabbling in crypto again two years ago. Unfortunately, I think they may be in for a world of hurt...  
 
-# The Tax Man Commeth
+## The Tax Man Commeth
 <a href="https://www.forbes.com/sites/kellyphillipserb/2017/03/20/irs-tries-again-to-make-coinbase-turn-over-customer-account-data/#2199c5c8175e">Forbes - IRS Tries Again to Make Coinbase Turn Over Customer Account Data</a>
 
 The IRS has taken the position that Coinbase must provide them with **all** of their customer transaction records, a decision influenced by the fact that only about 900 out of what I estimate are tens of thousands of Coinbase users declared Bitcoin profits on their tax returns. If Coinbase has 40,000 users, which I think is probably conservative, that's only 2.25% of their user base claiming earnings on their taxes. Now, some of those users could've only incurred losses (which should also be written off, by the way), some of them made barely enough to justify claiming the earnings to the IRS, etc, but still, that number is obviously way too low. Imagine if it was discovered that only 10% of Fidelity, Scottrade, or TD Ameritrade users reported their capital gains earnings to the IRS!
