@@ -1,8 +1,8 @@
 ---
 layout: page
+title: Data Science
 permalink: /projects/
 ---
-# Data Science
 
 1. <a href="https://github.com/yorktronic/data_science/tree/master/thinkful/Unit4/decision-trees">Predicting body position of smartphone users based on accelerometer data</a>. Decision trees, random forest, black box analysis, dato, graphlab create.
 
